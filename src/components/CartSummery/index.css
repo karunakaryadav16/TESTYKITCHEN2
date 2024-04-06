@@ -1,0 +1,39 @@
+.cart-summery-conatiner {
+  border-top: 2px dashed #CBD2D9;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.place-order-button-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.place-order-button {
+  height: 35px;
+  color: #fff;
+  background-color: #F7931E;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.order-total {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #3E4C59;
+}
+
+.total-cost {
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #3E4C59;
+}

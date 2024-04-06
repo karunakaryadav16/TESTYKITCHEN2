@@ -1,0 +1,149 @@
+.cart-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.food-items {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 500px;
+}
+
+.food-items span {
+  color: #183B56;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.image {
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.quantity-container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.quantity-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #475569;
+  height: 12px;
+  width: 12px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.quantity {
+  padding: 0 3px;
+  color: #475569;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.price-container {
+  width: 65px;
+}
+
+.cost {
+  color: #FFA412;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.food-items-mobile {
+  display: none;
+}
+
+.quantity-container-mobile {
+  display: none;
+}
+
+.price-container-mobile {
+  display: none;
+}
+
+.image-mobile {
+  display: none;
+}
+
+.cost-mobile {
+  display: none;
+}
+
+.delete-button {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .food-items-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .food-items {
+    display: none;
+  }
+
+  .quantity-container {
+    display: none;
+  }
+
+  .quantity-container-mobile {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .price-container {
+    display: none;
+  }
+
+  .price-container-mobile {
+    display: block;
+  }
+
+  .cost-mobile {
+    display: block;
+    color: #FFA412;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .mobile-view-container {
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .image-mobile {
+    display: block;
+    height: 70px;
+    border-radius: 10px;
+  }
+
+  .delete-button {
+    display: none;
+  }
+}

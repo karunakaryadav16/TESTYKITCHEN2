@@ -1,0 +1,233 @@
+.home-container {
+  padding: 10px 120px;
+  min-height: 100vh;
+  background-color: #bfbfbf;
+  z-index: 0;
+
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.restaurants-container {
+  padding: 30px 0;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-container span {
+  display: block;
+}
+
+.heading {
+  color: #183B56;
+  font-family: "DM Sans";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+}
+
+.description-home {
+  color: #64748B;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  color: #475569;
+  font-size: 15px;
+  padding: 0 5px;
+}
+
+.restaurants-list-container {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pagenation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-button {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-count {
+  margin: 0 10px;
+  color: #334155;
+  font-family: "Bree Serif";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.heading-and-search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container input {
+  background-color: transparent;
+  outline: none;
+  font-weight: 500;
+  border: 0;
+  padding: 5px;
+}
+
+.search-container {
+  border: 1px solid #183B56;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-button {
+  background-color: rgb(169, 171, 170);
+  outline: none;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  cursor: pointer;
+}
+
+.search-container-mobile {
+  display: none;
+}
+
+.search-button-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .search-container-mobile {
+    display: block;
+    border: 1px solid #183B56;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .search-container-mobile input {
+    display: block;
+    background-color: transparent;
+    outline: none;
+    font-weight: 500;
+    border: 0;
+    padding: 3px;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .search-button-mobile {
+    background-color: rgb(169, 171, 170);
+    outline: none;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+    display: block;
+  }
+
+  .search-container {
+    display: none;
+  }
+
+  .home-container {
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .heading-and-search-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .restaurants-container {
+    padding: 10px;
+  }
+
+  .heading-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .filter {
+    margin-top: 10px;
+  }
+
+  .restaurants-list-container {
+    margin: 15px 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .heading {
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .description-home {
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .dropdown {
+    font-size: 13px;
+  }
+}
